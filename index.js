@@ -117,6 +117,8 @@ function makeGrids(size){
         for(let j = 0; j < size; j++){
             const smallDiv = document.createElement('div');
             smallDiv.style.cssText = 'flex: 1 1 0; height = auto; width: auto; border-color: red; border-style: solid; background-color: orange; font-size: 0.5px;'
+            let width = size * 0.05;
+            smallDiv.style.borderWidth = `${width}px`
             smallDiv.innerText  = ' ';
             smallDiv.classList.add('grids')
             subDiv.appendChild(smallDiv);
