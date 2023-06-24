@@ -1,5 +1,5 @@
 
-let size = 2;
+let size = 10;
 let maxSize = 100
 let downClick = false;
 
